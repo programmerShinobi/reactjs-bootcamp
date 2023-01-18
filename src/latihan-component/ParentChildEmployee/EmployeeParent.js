@@ -24,17 +24,17 @@ const EmployeeTable = () => {
             sortable: true,
         },
         {
-            name: 'Nama Lengkap',
+            name: 'Full Name',
             selector: 'emp_fullname',
             sortable: true,
         },
         {
-            name: 'Gaji',
+            name: 'Salary',
             selector: 'emp_salary',
             sortable: true,
         },
         {
-            name: 'Departemen',
+            name: 'Departement',
             selector: 'emp_department',
             sortable: true,
         },

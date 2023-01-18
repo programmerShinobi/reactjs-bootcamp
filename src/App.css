@@ -73,7 +73,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(5px + 2vmin);
   color: white;
 }
 
@@ -84,11 +84,22 @@
 
 .search-employee{
   border-radius: 10px;
-  width: 670px;
-  
+  width: 670px;  
+  background-color: #282c34;
+  text-shadow: wheat;
 }
 
 .rounded-individual{
   border-radius: 15px;
   margin-top: 15px;
+  color:transparent;
+}
+
+.custom-head-table th {
+  background-color: #ca7200;
+}
+
+.custom-image-icon {
+  width: 1px;
+  height: 1px;
 }
