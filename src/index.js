@@ -4,21 +4,33 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 // import './index.css';
 // import App from './App';
-import MyComponent from './latihan-component/bootstrap-test';
+// import MyComponent from './latihan-component/bootstrap-test';
 import CalculatorSubtraction from './latihan-component/calculator-subtraction';
 import CalculatorMultiplication from './latihan-component/calculator-multiplication';
 import CalculatorAddition from './latihan-component/calculator-addition';
 import CalculatorDivision from './latihan-component/calculator-division';
+import KirimNama from './latihan-component/ParentChild/KirimDataNama';
+import KirimNamaObject from './latihan-component/ParentChild/KirimDataNamaObject';
+import ParentComponent from './latihan-component/ParentChild/ParentComponent';
+import CalculatorParent from './latihan-component/ParentChildCalculator/CalculatorParent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <MyComponent /> */}
-    <CalculatorAddition />
+
+    {/* <CalculatorAddition />
     <CalculatorSubtraction />
     <CalculatorMultiplication />
-    <CalculatorDivision />
+    <CalculatorDivision /> */}
+
+    {/* <KirimNama />
+    <KirimNamaObject /> */}
+
+    {/* <ParentComponent /> */}
+
+    <CalculatorParent />
   </React.StrictMode>
 );
 

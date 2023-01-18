@@ -39,7 +39,7 @@ export default function CalculatorAddition() {
                     <div class="card-header bg-primary">
                         <h3 className='text-center'><i className="fa-solid fa-calculator"></i> Addition</h3>
                     </div>
-                    <div class="card-body">
+                    <div className="card-body">
                         <div className='text-center'>
                             <input style={{ width: '71px', display: 'inline-block' }} className='form-control' type="number" value={num1} onChange={e => setNum1(e.target.value)} />
                             <span style={{ width: '74px', display: 'inline-block' }} className='text-center'><i class="fa-solid fa-plus "></i></span>
