@@ -11,7 +11,15 @@ export default function CalculatorChild(props) {
             <div className="card-body">
                 <div className='text-center'>
                     <input style={{ width: '71px', display: 'inline-block' }} className='form-control' type="number" value={props.num1} onChange={e => props.setNum1(e.target.value)} />
-                    <span style={{ width: '74px', display: 'inline-block' }} className='text-center'><i class="fa-solid fa-plus "></i></span>
+                    <span style={{ width: '74px', display: 'inline-block' }} className='text-center'>
+                        With
+                        {/* <div value={props.toastRefPlus()} className="toast" role="alert" aria-live="assertive" aria-atomic="true" ref={props.yourToastRef2}>
+                            <i class="fa-solid fa-plus "></i>
+                        </div>
+                        <i class="fa-solid fa-divide"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                        <i className="fa-solid fa-calculator"></i> */}
+                    </span>
                     <input style={{ width: '71px', display: 'inline-block' }} className='form-control' type="number" value={props.num2} onChange={e => props.setNum2(e.target.value)} />
                 </div>
                 <div className='mt-3 text-left'>

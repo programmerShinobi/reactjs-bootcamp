@@ -8,6 +8,7 @@ export default function CalculatorParent() {
     // state untuk menyimpan input pertama dan kedua
     const [num1, setNum1] = useState(0);
     const [num2, setNum2] = useState(0);
+    const [op, setOp] = useState('');
     // state untuk menyimpan hasil
     const [result, setResult] = useState(0);
 
@@ -15,15 +16,19 @@ export default function CalculatorParent() {
     const handleCalculate = () => {
         if (multiplicationChecked) {
             setResult(+num1 * +num2);
+            // handleOperator('*');
         }
         else if (additionChecked) {
             setResult(+num1 + +num2);
+            // handleOperator('+');
         }
         else if (divisionChecked) {
             setResult(+num1 / +num2);
+            // handleOperator('/');
         }
         else if (subtractionChecked) {
             setResult(+num1 - +num2);
+            // handleOperator('-');
         }
         handleClick();
     }
@@ -38,6 +43,23 @@ export default function CalculatorParent() {
             toastRef.current.classList.remove('show');
         }, 2000);
     };
+
+    // // fungsi untuk operator
+    // const toastRefPlus = useRef(null);
+    // const handleOperatorPlus = (operator) => {
+    //     toastRefPlus.current.classList.add(operator);
+    // }
+
+    // const toastRefMinus = useRef(null);
+    // const handleOperatorMinus = (operator) => {
+    //     toastRefMinus.current.classList.add(operator);
+    // }
+
+    // const toastRefTimes = useRef(null);
+    // const handleOperatorTimes = (operator) => {
+    //     toastRefTimes.current.classList.add(operator);
+    // }
+
 
     // fungsi untuk reset button
     const handleReset = () => {
@@ -82,6 +104,18 @@ export default function CalculatorParent() {
 
                         subtractionChecked={subtractionChecked}
                         setSubtractionChecked={setSubtractionChecked}
+
+                    // op={op}
+                    // setOp={setOp}
+
+                    // toastRefPlus={toastRefPlus}
+                    // handleOperatorPlus={handleOperatorPlus}
+
+                    // toastRefMinus={toastRefMinus}
+                    // handleOperatorMinus={handleOperatorMinus}
+
+                    // toastRefTimes={toastRefTimes}
+                    // handleOperatorTimes={handleOperatorTimes}
 
                     />
                 </div>

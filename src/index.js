@@ -13,6 +13,7 @@ import KirimNama from './latihan-component/ParentChild/KirimDataNama';
 import KirimNamaObject from './latihan-component/ParentChild/KirimDataNamaObject';
 import ParentComponent from './latihan-component/ParentChild/ParentComponent';
 import CalculatorParent from './latihan-component/ParentChildCalculator/CalculatorParent';
+import EmployeeTable from './latihan-component/ParentChildEmployee/EmployeeParent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,7 +31,8 @@ root.render(
 
     {/* <ParentComponent /> */}
 
-    <CalculatorParent />
+    {/* <CalculatorParent /> */}
+    <EmployeeTable />
   </React.StrictMode>
 );
 

@@ -65,3 +65,30 @@
   background-color: #42464d;
   color: white;
 }
+
+.App-header-custom {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.table-color-custom-bg {
+  background-color: #6f757f;
+  color: white;
+}
+
+.search-employee{
+  border-radius: 10px;
+  width: 670px;
+  
+}
+
+.rounded-individual{
+  border-radius: 15px;
+  margin-top: 15px;
+}
