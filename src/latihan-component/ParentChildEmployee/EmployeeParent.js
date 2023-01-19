@@ -82,6 +82,9 @@ const EmployeeTable = () => {
             handleSearch={handleSearch}
             sortedEmployees={sortedEmployees}
             setSearchTerm={setSearchTerm}
+            pagination
+            selectableRows
+            persistTableHead
         />
     );
 }
