@@ -14,7 +14,8 @@ import KirimNamaObject from './latihan-component/ParentChild/KirimDataNamaObject
 import ParentComponent from './latihan-component/ParentChild/ParentComponent';
 import CalculatorParent from './latihan-component/ParentChildCalculator/CalculatorParent';
 import EmployeeTable from './latihan-component/ParentChildEmployee/EmployeeParent';
-
+import { MainLayout } from './layout/MainLayout';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -33,8 +34,10 @@ root.render(
     {/* <ParentComponent /> */}
 
     {/* <CalculatorParent /> */}
-    <EmployeeTable />
-  </React.StrictMode>
+    {/* <EmployeeTable /> */}
+    {/* <MainLayout /> */}
+    <App />
+  </React.StrictMode >
 );
 
 // If you want to start measuring performance in your app, pass a function
