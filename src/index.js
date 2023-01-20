@@ -15,6 +15,7 @@ import ParentComponent from './latihan-component/ParentChild/ParentComponent';
 import CalculatorParent from './latihan-component/ParentChildCalculator/CalculatorParent';
 import EmployeeTable from './latihan-component/ParentChildEmployee/EmployeeParent';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
